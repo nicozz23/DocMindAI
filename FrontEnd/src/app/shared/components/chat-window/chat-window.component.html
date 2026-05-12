@@ -1,0 +1,54 @@
+<div class="chat-wrapper">
+  <!-- Cabecera -->
+  <div class="chat-header">
+    <div class="ai-avatar">IA</div>
+    <div>
+      <h2>Asistente Corporativo</h2>
+      <p class="status">● En línea (Llama 3.2)</p>
+    </div>
+  </div>
+
+  <!-- Área de Mensajes -->
+  <div class="messages-container" #scrollContainer>
+    <div *ngFor="let msg of messages" 
+         [ngClass]="{'msg-row': true, 'user-row': msg.isUser, 'ai-row': !msg.isUser}">
+      
+      <div class="msg-bubble" [ngClass]="{'user-bubble': msg.isUser, 'ai-bubble': !msg.isUser, 'loading': msg.isLoading}">
+        <p *ngIf="!msg.isLoading">{{ msg.text }}</p>
+        
+        <!-- Fuentes/Citas -->
+        <div class="sources-list" *ngIf="!msg.isUser && msg.sources && msg.sources.length > 0">
+          <p class="sources-label">Fuentes consultadas:</p>
+          <div class="source-tags">
+            <span class="source-tag" *ngFor="let source of msg.sources">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+              {{ source }}
+            </span>
+          </div>
+        </div>
+
+        <div class="dots" *ngIf="msg.isLoading">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Input -->
+  <div class="input-area">
+    <textarea 
+      [(ngModel)]="userInput" 
+      (keydown)="handleKeyPress($event)"
+      placeholder="Escribe tu pregunta aquí..." 
+      rows="1"
+      [disabled]="isWaitingForResponse">
+    </textarea>
+    <button (click)="sendMessage()" [disabled]="!userInput.trim() || isWaitingForResponse">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+      </svg>
+    </button>
+  </div>
+</div>

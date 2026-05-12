@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "dgSpecHash": "mEGzV4sG0Ak=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brpin\\.nuget\\packages\\azure.ai.openai\\2.2.0-beta.1\\azure.ai.openai.2.2.0-beta.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\dapper\\2.1.72\\dapper.2.1.72.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\google.protobuf\\3.24.2\\google.protobuf.3.24.2.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\grpc.core.api\\2.57.0\\grpc.core.api.2.57.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\grpc.net.client\\2.57.0\\grpc.net.client.2.57.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\grpc.net.common\\2.57.0\\grpc.net.common.2.57.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.data.sqlclient\\6.1.1\\microsoft.data.sqlclient.6.1.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\6.0.2\\microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.7\\microsoft.entityframeworkcore.analyzers.10.0.7.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.7\\microsoft.entityframeworkcore.relational.10.0.7.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\10.0.7\\microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.ai\\9.1.0-preview.1.25064.3\\microsoft.extensions.ai.9.1.0-preview.1.25064.3.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.1.0-preview.1.25064.3\\microsoft.extensions.ai.abstractions.9.1.0-preview.1.25064.3.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\9.0.0-preview.1.25078.1\\microsoft.extensions.vectordata.abstractions.9.0.0-preview.1.25078.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identity.client\\4.73.1\\microsoft.identity.client.4.73.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.73.1\\microsoft.identity.client.extensions.msal.4.73.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.7.1\\microsoft.identitymodel.abstractions.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.7.1\\microsoft.identitymodel.jsonwebtokens.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identitymodel.logging\\7.7.1\\microsoft.identitymodel.logging.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.7.1\\microsoft.identitymodel.protocols.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.7.1\\microsoft.identitymodel.protocols.openidconnect.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.7.1\\microsoft.identitymodel.tokens.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel\\1.37.0\\microsoft.semantickernel.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.37.0\\microsoft.semantickernel.abstractions.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.37.0\\microsoft.semantickernel.connectors.azureopenai.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.google\\1.37.0-alpha\\microsoft.semantickernel.connectors.google.1.37.0-alpha.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.ollama\\1.37.0-alpha\\microsoft.semantickernel.connectors.ollama.1.37.0-alpha.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.37.0\\microsoft.semantickernel.connectors.openai.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.qdrant\\1.37.0-preview\\microsoft.semantickernel.connectors.qdrant.1.37.0-preview.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.core\\1.37.0\\microsoft.semantickernel.core.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\ollamasharp\\4.0.17\\ollamasharp.4.0.17.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\openai\\2.2.0-beta.1\\openai.2.2.0-beta.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\qdrant.client\\1.12.0\\qdrant.client.1.12.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.7.0\\swashbuckle.aspnetcore.6.7.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.7.0\\swashbuckle.aspnetcore.swagger.6.7.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.7.0\\swashbuckle.aspnetcore.swaggergen.6.7.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.7.0\\swashbuckle.aspnetcore.swaggerui.6.7.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.clientmodel\\1.5.1\\system.clientmodel.1.5.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.4\\system.configuration.configurationmanager.9.0.4.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.7.1\\system.identitymodel.tokens.jwt.7.7.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.numerics.tensors\\8.0.0\\system.numerics.tensors.8.0.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "ProyectoIA.Infrastructure depende de Microsoft.SemanticKernel.Connectors.Qdrant (>= 1.37.0-alpha), pero no se encontró Microsoft.SemanticKernel.Connectors.Qdrant 1.37.0-alpha. Microsoft.SemanticKernel.Connectors.Qdrant 1.37.0-preview se resolvió en su lugar.",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "Microsoft.SemanticKernel.Connectors.Qdrant",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"BouncyCastle\" 1.8.9 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"BouncyCastle\" 1.8.9 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"BouncyCastle\" 1.8.9 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.SemanticKernel.Core\" 1.37.0 tiene una vulnerabilidad de gravedad crítica conocida, https://github.com/advisories/GHSA-2ww3-72rp-wpp4",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "Microsoft.SemanticKernel.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "El paquete \"BouncyCastle 1.8.9\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net10.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "El paquete \"iTextSharp 5.5.13.3\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net10.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.API\\ProyectoIA.API.csproj",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

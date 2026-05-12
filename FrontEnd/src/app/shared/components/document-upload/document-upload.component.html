@@ -1,0 +1,47 @@
+<div class="aside-wrapper">
+  <!-- Tarjeta de Carga (Compacta) -->
+  <div class="upload-container glass-panel">
+    <div class="header-compact">
+      <h3>Cargar Conocimiento</h3>
+      <button class="icon-btn-clear" title="Limpiar Memoria" (click)="clearMemory()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+      </button>
+    </div>
+
+    <div 
+      class="drop-zone-mini" 
+      [class.dragging]="isDragging"
+      (dragover)="onDragOver($event)"
+      (dragleave)="onDragLeave($event)"
+      (drop)="onDrop($event)"
+      (click)="fileInput.click()">
+      
+      <svg *ngIf="!selectedFile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="17 8 12 3 7 8"></polyline>
+        <line x1="12" y1="3" x2="12" y2="15"></line>
+      </svg>
+      
+      <p *ngIf="!selectedFile">Sube un PDF</p>
+      <p *ngIf="selectedFile" class="file-name-mini">{{ selectedFile.name }}</p>
+      
+      <input type="file" #fileInput accept="application/pdf" (change)="onFileSelected($event)" (click)="$event.target.value = ''" hidden>
+    </div>
+
+    <button class="action-btn" *ngIf="selectedFile && !isUploading" (click)="uploadFile()">
+      Analizar ahora
+    </button>
+
+    <!-- Barra de Progreso Compacta -->
+    <div class="progress-mini" *ngIf="isUploading">
+      <div class="progress-bar-track">
+        <div class="progress-bar-fill" [style.width.%]="progress"></div>
+      </div>
+      <span>{{ progress }}%</span>
+    </div>
+
+    <div class="status-msg" *ngIf="statusMessage" [ngClass]="uploadStatus">
+      {{ statusMessage }}
+    </div>
+  </div>
+</div>

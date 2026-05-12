@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ProyectoIA.API/ProyectoIA.API.csproj" />
+  <Project Path="ProyectoIA.Domain/ProyectoIA.Domain.csproj" />
+  <Project Path="ProyectoIA.Application/ProyectoIA.Application.csproj" />
+  <Project Path="ProyectoIA.Infrastructure/ProyectoIA.Infrastructure.csproj" />
+</Solution>

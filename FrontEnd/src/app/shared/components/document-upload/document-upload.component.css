@@ -1,0 +1,168 @@
+/* ═══════════════════════════════════════════════════════
+   DOCUMENT UPLOAD — Panel de Carga de Conocimiento
+   ═══════════════════════════════════════════════════════ */
+
+.aside-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.upload-container {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 18px;
+}
+
+/* ── Header ── */
+.header-compact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.header-compact h3 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.icon-btn-clear {
+  background: transparent;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+  transition: all 0.2s var(--ease);
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn-clear:hover {
+  color: var(--error);
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.icon-btn-clear svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* ── Drop Zone ── */
+.drop-zone-mini {
+  border: 1.5px dashed var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 20px 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s var(--ease);
+  background: transparent;
+}
+
+.drop-zone-mini:hover,
+.drop-zone-mini.dragging {
+  border-color: var(--accent);
+  background: var(--accent-subtle);
+}
+
+.drop-zone-mini svg {
+  width: 28px;
+  height: 28px;
+  color: var(--text-tertiary);
+  margin-bottom: 8px;
+  transition: color 0.25s var(--ease);
+}
+
+.drop-zone-mini:hover svg {
+  color: var(--accent);
+}
+
+.drop-zone-mini p {
+  font-size: 0.78rem;
+  margin: 0;
+  color: var(--text-tertiary);
+}
+
+.file-name-mini {
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+/* ── Action Button ── */
+.action-btn {
+  width: 100%;
+  margin-top: 14px;
+  padding: 10px;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: white;
+  font-weight: 600;
+  font-size: 0.82rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s var(--ease);
+}
+
+.action-btn:hover {
+  background: var(--accent-hover);
+  box-shadow: 0 2px 12px var(--accent-glow);
+}
+
+/* ── Progress ── */
+.progress-mini {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-bar-track {
+  flex: 1;
+  height: 4px;
+  background: var(--border-subtle);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.3s var(--ease);
+}
+
+.progress-mini span {
+  font-size: 0.7rem;
+  color: var(--accent);
+  font-weight: 600;
+  min-width: 32px;
+  text-align: right;
+}
+
+/* ── Status ── */
+.status-msg {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  font-weight: 500;
+}
+
+.status-msg.success {
+  background: rgba(34, 197, 94, 0.08);
+  color: var(--success);
+  border: 1px solid rgba(34, 197, 94, 0.15);
+}
+
+.status-msg.error {
+  background: rgba(239, 68, 68, 0.08);
+  color: var(--error);
+  border: 1px solid rgba(239, 68, 68, 0.15);
+}

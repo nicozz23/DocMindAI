@@ -1,0 +1,71 @@
+<div class="app-layout">
+  <!-- Barra Lateral de Historial (Izquierda) -->
+  <app-chat-sidebar 
+    [sessions]="sessions" 
+    [activeSessionId]="activeSessionId"
+    (onNewChat)="createNewChat()"
+    (onSelectSession)="selectSession($event)"
+    (onDeleteSession)="deleteSession($event)"
+  ></app-chat-sidebar>
+
+  <!-- Área Principal (Split View) -->
+  <main class="main-content" [class.has-panel]="showSummaryPanel">
+
+    <!-- Chat (siempre visible) -->
+    <section class="chat-section">
+      <app-chat-window 
+        [sessionId]="activeSessionId"
+        (onMessageSent)="loadSessions()"
+      ></app-chat-window>
+    </section>
+
+    <!-- Panel de Análisis (se desliza cuando hay resumen) -->
+    <aside class="analysis-panel" *ngIf="showSummaryPanel">
+      <div class="panel-header">
+        <div class="panel-title">
+          <span class="badge-ai">IA</span>
+          <h3>Análisis del Documento</h3>
+        </div>
+        <button class="panel-close" (click)="closeSummaryPanel()" title="Cerrar panel">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="panel-body">
+        <!-- Loading -->
+        <div *ngIf="isLoadingSummary" class="panel-loading">
+          <div class="spinner"></div>
+          <p>Analizando documento...</p>
+        </div>
+
+        <!-- Resultado -->
+        <div *ngIf="!isLoadingSummary && currentSummary" class="panel-result">
+          <div class="result-badge">
+            <span>PROCESADO POR LLAMA 3.2</span>
+          </div>
+          <h4>Resumen Ejecutivo</h4>
+          <p>{{ currentSummary }}</p>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Panel Derecho (Upload) -->
+  <aside class="sidebar-right">
+    <div class="logo-container">
+      <div class="logo">IA</div>
+      <h1>Cerebro<br>Corporativo</h1>
+    </div>
+    
+    <app-document-upload 
+      [sessionId]="activeSessionId"
+      (onSummaryLoading)="onSummaryLoading($event)"
+      (onSummaryGenerated)="onSummaryGenerated($event)"
+    ></app-document-upload>
+    
+    <div class="sidebar-footer">
+      <p>Powered by Llama 3.2 & Qdrant</p>
+    </div>
+  </aside>
+</div>

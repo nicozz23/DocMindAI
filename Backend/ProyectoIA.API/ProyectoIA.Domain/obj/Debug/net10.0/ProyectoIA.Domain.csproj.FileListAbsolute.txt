@@ -1,0 +1,11 @@
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\bin\Debug\net10.0\ProyectoIA.Domain.deps.json
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\bin\Debug\net10.0\ProyectoIA.Domain.dll
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\bin\Debug\net10.0\ProyectoIA.Domain.pdb
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ProyectoIA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ProyectoIA.Domain.AssemblyInfoInputs.cache
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ProyectoIA.Domain.AssemblyInfo.cs
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ProyectoIA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ProyectoIA.Domain.dll
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\refint\ProyectoIA.Domain.dll
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ProyectoIA.Domain.pdb
+C:\Users\brpin\OneDrive\Documentos\Proyectos IA\PrimeroProyectoIA\Backend\ProyectoIA.API\ProyectoIA.Domain\obj\Debug\net10.0\ref\ProyectoIA.Domain.dll

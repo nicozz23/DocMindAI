@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "dgSpecHash": "82YJyorYANE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.Application\\ProyectoIA.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brpin\\.nuget\\packages\\azure.ai.openai\\2.2.0-beta.1\\azure.ai.openai.2.2.0-beta.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.1.0-preview.1.25064.3\\microsoft.extensions.ai.abstractions.9.1.0-preview.1.25064.3.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\9.0.0-preview.1.25078.1\\microsoft.extensions.vectordata.abstractions.9.0.0-preview.1.25078.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel\\1.37.0\\microsoft.semantickernel.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.37.0\\microsoft.semantickernel.abstractions.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.37.0\\microsoft.semantickernel.connectors.azureopenai.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.37.0\\microsoft.semantickernel.connectors.openai.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\microsoft.semantickernel.core\\1.37.0\\microsoft.semantickernel.core.1.37.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\openai\\2.2.0-beta.1\\openai.2.2.0-beta.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.clientmodel\\1.2.1\\system.clientmodel.1.2.1.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.memory.data\\6.0.0\\system.memory.data.6.0.0.nupkg.sha512",
+    "C:\\Users\\brpin\\.nuget\\packages\\system.numerics.tensors\\8.0.0\\system.numerics.tensors.8.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.SemanticKernel.Core\" 1.37.0 tiene una vulnerabilidad de gravedad crítica conocida, https://github.com/advisories/GHSA-2ww3-72rp-wpp4",
+      "projectPath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.Application\\ProyectoIA.Application.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\brpin\\OneDrive\\Documentos\\Proyectos IA\\PrimeroProyectoIA\\Backend\\ProyectoIA.API\\ProyectoIA.Application\\ProyectoIA.Application.csproj",
+      "libraryId": "Microsoft.SemanticKernel.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

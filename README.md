@@ -10,8 +10,10 @@
 ---
 
 ## 📺 Demo Video
-[![Watch the Demo](https://cdn.loom.com/sessions/thumbnails/f73b1a11ac5a4d6ea9c54c5e7b21df18-with-play.gif)](https://www.loom.com/share/f73b1a11ac5a4d6ea9c54c5e7b21df18)
-*Haz clic en la imagen para ver la demostración en Loom.*
+
+[![Mira la demostración de DocMind AI](https://cdn.loom.com/sessions/thumbnails/f73b1a11ac5a4d6ea9c54c5e7b21df18-with-play.gif)](https://www.loom.com/share/f73b1a11ac5a4d6ea9c54c5e7b21df18)
+
+*Haz clic en la imagen de arriba para ver el sistema en acción.*
 
 ---
 

@@ -66,7 +66,7 @@ El sistema está construido bajo principios de **Clean Architecture** y utiliza:
 ---
 
 ## 📄 Documentación
-Para más detalles sobre el funcionamiento interno, consulta la [Documentación Técnica](./Docs/Documentacion_Tecnica.md).
+Para más detalles sobre el funcionamiento interno, consulta la [Documentación Técnica](./Documentacion_Tecnica.md).
 
 ---
 **Desarrollado por Bryan Pino — AI & Full Stack Engineer**

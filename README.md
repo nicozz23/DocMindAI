@@ -10,10 +10,14 @@
 ---
 
 ## 📺 Demo Video
+<<<<<<< HEAD
 
 [![Mira la demostración de DocMind AI](https://cdn.loom.com/sessions/thumbnails/f73b1a11ac5a4d6ea9c54c5e7b21df18-with-play.gif)](https://www.loom.com/share/f73b1a11ac5a4d6ea9c54c5e7b21df18)
 
 *Haz clic en la imagen de arriba para ver el sistema en acción.*
+=======
+<div style="position: relative; padding-bottom: 47.39039665970772%; height: 0;"><iframe src="https://www.loom.com/embed/f73b1a11ac5a4d6ea9c54c5e7b21df18" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+>>>>>>> a033fa09fc046eb20c190cdf080676c95a8e01c0
 
 ---
 
